@@ -6,9 +6,9 @@
 // Return the results as an array (or list in Python, Haskell or Elixir).
 //   Answer
 function countBy(x, n) {
-  let z = [];
+  let arr = [];
 for (let i = 1; i <= n; i++) {
     z.push(x * i)
 }
-  return z;
+  return arr;
 } console.log(countBy(2, 5))
