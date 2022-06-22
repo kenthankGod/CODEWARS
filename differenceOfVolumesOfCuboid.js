@@ -9,4 +9,4 @@
 
 function findDifference(a, b){
   return Math.abs(a.reduce((prev, cur) => prev * cur) - b.reduce((prev, cur) => prev * cur))
-}  console.log(findDifference([2, 2, 3], [5, 4, 1]))
+}  console.log(findDifference([2, 2, 3], [5, 4, 4]))
